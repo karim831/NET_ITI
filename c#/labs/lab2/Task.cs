@@ -3,19 +3,20 @@ public class Task
 {
     public static void Main(string[] args)
     {
-        System.Console.WriteLine("\t\t -- Multiplication_table --\n");
+        // Task 1 : multiplication table
+        System.Console.WriteLine("\t\t -- Task 1 : Multiplication_table --\n");
         multi_table();
         System.Console.WriteLine("------------------------------------------------------");
         // ----------------------------------------
 
-
-        System.Console.WriteLine("\t\t -- Employee_age --\n");
+        // Task 2 : Get data from user and check age
+        System.Console.WriteLine("\t\t -- Task 2 : Get data from user and check age --\n");
         employee_data();
         System.Console.WriteLine("------------------------------------------------------");
         // ----------------------------------------
 
 
-        System.Console.WriteLine("\t\t -- Instances --\n");
+        System.Console.WriteLine("\t\t -- Task 3 : Class and Instances --\n");
         Student st = new Student(1,"karim",15,"01012423");
         System.Console.WriteLine(st.ssn + " " + st.name + " " + st.age + " " + st.phone);
         System.Console.WriteLine("------------------------------------------------------"); 

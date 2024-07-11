@@ -12,3 +12,4 @@ D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\refint\lab2.dll
 D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.pdb
 D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.genruntimeconfig.cache
 D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\ref\lab2.dll
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.sourcelink.json
