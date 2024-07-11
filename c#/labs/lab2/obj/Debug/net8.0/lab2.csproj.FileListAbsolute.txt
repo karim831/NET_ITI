@@ -1,0 +1,14 @@
+D:\Studying\programming\NET ITI\c#\labs\lab2\bin\Debug\net8.0\lab2.exe
+D:\Studying\programming\NET ITI\c#\labs\lab2\bin\Debug\net8.0\lab2.deps.json
+D:\Studying\programming\NET ITI\c#\labs\lab2\bin\Debug\net8.0\lab2.runtimeconfig.json
+D:\Studying\programming\NET ITI\c#\labs\lab2\bin\Debug\net8.0\lab2.dll
+D:\Studying\programming\NET ITI\c#\labs\lab2\bin\Debug\net8.0\lab2.pdb
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.AssemblyInfoInputs.cache
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.AssemblyInfo.cs
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.csproj.CoreCompileInputs.cache
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.dll
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\refint\lab2.dll
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.pdb
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\lab2.genruntimeconfig.cache
+D:\Studying\programming\NET ITI\c#\labs\lab2\obj\Debug\net8.0\ref\lab2.dll
