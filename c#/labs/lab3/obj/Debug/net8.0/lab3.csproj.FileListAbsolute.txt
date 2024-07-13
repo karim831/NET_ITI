@@ -1,0 +1,15 @@
+D:\Studying\programming\NET ITI\c#\labs\lab3\bin\Debug\net8.0\lab3.exe
+D:\Studying\programming\NET ITI\c#\labs\lab3\bin\Debug\net8.0\lab3.deps.json
+D:\Studying\programming\NET ITI\c#\labs\lab3\bin\Debug\net8.0\lab3.runtimeconfig.json
+D:\Studying\programming\NET ITI\c#\labs\lab3\bin\Debug\net8.0\lab3.dll
+D:\Studying\programming\NET ITI\c#\labs\lab3\bin\Debug\net8.0\lab3.pdb
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\lab3.AssemblyInfoInputs.cache
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\lab3.AssemblyInfo.cs
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\lab3.csproj.CoreCompileInputs.cache
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\lab3.sourcelink.json
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\lab3.dll
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\refint\lab3.dll
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\lab3.pdb
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\lab3.genruntimeconfig.cache
+D:\Studying\programming\NET ITI\c#\labs\lab3\obj\Debug\net8.0\ref\lab3.dll
