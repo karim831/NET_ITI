@@ -2,7 +2,9 @@
 
 public class Lab4{
     public static void Main(string [] args){
+        // Task1 : username and age
         task1();
+        // Task2 : multiblication ecept index
         task2();
 
     }
