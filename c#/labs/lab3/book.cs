@@ -1,3 +1,5 @@
+namespace lab3;
+
 public class Book{
     private int id;
     private string name;

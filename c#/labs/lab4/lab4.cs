@@ -1,4 +1,4 @@
-﻿namespace Labs;
+﻿namespace lab4;
 
 public class Lab4{
     public static void Main(string [] args){

@@ -1,3 +1,5 @@
+namespace lab3;
+
 public class student2{
     private int id;
     private string name;
