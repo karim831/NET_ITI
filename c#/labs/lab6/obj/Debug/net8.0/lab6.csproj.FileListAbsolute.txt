@@ -1,0 +1,15 @@
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\lab6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\lab6.AssemblyInfoInputs.cache
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\lab6.AssemblyInfo.cs
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\lab6.csproj.CoreCompileInputs.cache
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\lab6.sourcelink.json
+D:\Studying\programming\NET ITI\c#\labs\lab6\bin\Debug\net8.0\lab6.exe
+D:\Studying\programming\NET ITI\c#\labs\lab6\bin\Debug\net8.0\lab6.deps.json
+D:\Studying\programming\NET ITI\c#\labs\lab6\bin\Debug\net8.0\lab6.runtimeconfig.json
+D:\Studying\programming\NET ITI\c#\labs\lab6\bin\Debug\net8.0\lab6.dll
+D:\Studying\programming\NET ITI\c#\labs\lab6\bin\Debug\net8.0\lab6.pdb
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\lab6.dll
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\refint\lab6.dll
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\lab6.pdb
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\lab6.genruntimeconfig.cache
+D:\Studying\programming\NET ITI\c#\labs\lab6\obj\Debug\net8.0\ref\lab6.dll
