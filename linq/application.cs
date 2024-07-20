@@ -151,6 +151,82 @@ public class Application{
         // .FirstOrDefault()?.Key ?? "NO thing");
 
 
+        // /*You have a list of products with their categories and prices. 
+        // Return the most expensive product in each category.*/
+        // List<Product> products = new List<Product> { new Product("Laptop", "Electronics", 1000),
+        //     new Product("Phone", "Electronics", 800), new Product("Shirt", "Clothing", 50),
+        //     new Product("Pants", "Clothing", 60)
+        // };
+
+        // var list = products.GroupBy((p) => p.Category).Select((g) => g.OrderByDescending((p) => p.Price).First());
+
+        // foreach(var product in list){
+        //     System.Console.WriteLine($"Name : {product.Name}, Category : {product.Category}, Price : {product.Price}");
+        // }
+        
+
+        // /*You have a list of students with their grades in different subjects. Return the
+        //     average grade for each student. */
+
+        //  List<StudentGrades> grades = new List<StudentGrades> { new StudentGrades("Ali", "Math", 90),
+        //         new StudentGrades("Ali", "Science",85), new StudentGrades("Ramy", "Math", 80),
+        //         new StudentGrades("Ramy","Science", 70) };
+
+
+        // var avgs = grades.GroupBy((sg) => sg.Student).Select((g) => g.Average((sg) => sg.Grade));
+
+        // foreach(var avg in avgs){
+        //     System.Console.WriteLine(avg);
+        // }
+
+
+
+
+
+        // /* You have a list of transactions with their amounts and dates. Return the total transaction amount for each month*/
+        // List<Transaction> transactions = new List<Transaction> { 
+        //     new Transaction(new DateTime(2024, 1, 10), 100),
+        //     new Transaction(new DateTime(2024, 1, 20), 200),
+        //     new Transaction(new DateTime(2024, 2, 5),150)};
+
+        // var amounts = transactions.GroupBy((t) => t.Date.Month).Select(
+        //     (g) => new{Month = g.Key , Sum = g.Sum((t) => t.Amount)}
+        // );
+        // foreach(var amount in amounts){
+        //     System.Console.WriteLine($"Month : {amount.Month} , Sum : {amount.Sum}");
+        // }
+
+
+
+
+        // /*You have a list of orders with their order dates and amounts. Return the order
+        //     amounts for the last 7 days */
+
+
+        //     List<Order1> orders = new List<Order1> { 
+        //         new Order1(new DateTime(2024,7, 10), 50), 
+        //         new Order1(new DateTime(2024, 7, 15), 200), 
+        //         new Order1(new DateTime(2024, 7, 16), 150) 
+        //     };
+
+        //     System.Console.WriteLine(
+        //         orders.OrderByDescending((o) => o.Date.Day).Where((o) => o.Date.Day)
+        //     ); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
