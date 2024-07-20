@@ -209,9 +209,11 @@ public class Application{
         //         new Order1(new DateTime(2024, 7, 16), 150) 
         //     };
 
+
+        //     var today = orders.Last().OrderDate.Day;
         //     System.Console.WriteLine(
-        //         orders.OrderByDescending((o) => o.Date.Day).Where((o) => o.Date.Day)
-        //     ); 
+        //         orders.Where((o) => (o.OrderDate.Day >= today-7)).Sum((o) => o.Amount)
+        //     );
 
 
 
