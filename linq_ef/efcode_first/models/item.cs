@@ -10,7 +10,7 @@ public class Item{
 
     [Required]
     [StringLength(10)]
-    public string Name{get;set;}
+    public string Name{get;set;} = "";
 
     public virtual List<Order> Orders{get;set;} = new List<Order>();
 }

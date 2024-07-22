@@ -10,13 +10,13 @@ public class Order{
 
     [Required]
     [StringLength(100)]
-    public string Name{get;set;}
+    public string Name{get;set;} = "";
 
     public int UserId{get;set;}
 
     public virtual List<Item> Items{get;set;} = new List<Item>();
 
     [ForeignKey("UserId")]
-    public virtual User User{get;set;}
+    public virtual User User{get;set;} = new User();
 
 }

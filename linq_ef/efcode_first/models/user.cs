@@ -9,11 +9,11 @@ public class User{
 
     [Required]
     [StringLength(10)]
-    public string Fname{get;set;}
+    public string Fname{get;set;} = "";
 
     [Required]
     [StringLength(10)]
-    public string Lname{get;set;}
+    public string Lname{get;set;} = "";
 
     [Required]
     [Range(20, 50, ErrorMessage = "Price must be between 0.01 and 10000.00")]
@@ -21,7 +21,7 @@ public class User{
 
     [Required]
     [AllowedValues("Male", "Female", ErrorMessage = "Gender must be either 'Male' or 'Female'.")]
-    public string Gender{get;set;}
+    public string Gender{get;set;} = "";
 
     public virtual List<Order> Orders{get;set;} = new List<Order>();
 }
