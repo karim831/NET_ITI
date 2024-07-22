@@ -1,0 +1,5 @@
+Scaffold-DbContext "Server=.;Database=market;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+dotnet ef dbcontext Scaffold "Server=./;Database=market;Trusted_Connection=False;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer --output-dir models
+
