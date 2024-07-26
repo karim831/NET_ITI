@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Studying\programming\NET ITI\mvc\lab2
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Studying/programming/NET ITI/mvc/lab2/Views/College/AddStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxBZGRTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Studying/programming/NET ITI/mvc/lab2/Views/College/DeleteStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxEZWxldGVTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Studying/programming/NET ITI/mvc/lab2/Views/College/StudentTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxTdHVkZW50VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Studying/programming/NET ITI/mvc/lab2/Views/College/UpdateStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxVcGRhdGVTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Studying/programming/NET ITI/mvc/lab2/Views/Home/Index.cshtml]

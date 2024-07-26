@@ -28,4 +28,45 @@ public class CollegeController : Controller{
         }
         return StudentTable();
     }
+
+    public IActionResult UpdateStudent(int id){
+        var student = college.Students.FirstOrDefault((s) => s.Id == id);
+        if(student != null){
+            return View("UpdateStudent",student);
+        }
+        return NotFound();
+    }
+
+    public IActionResult UpdateStudentConfirmed(){
+        if(Request != null){
+            var student = college.Students.FirstOrDefault((s) => s.Id == int.Parse(Request.Form["Id"]));
+            
+            if(student != null){
+                student.Name = Request.Form["Name"];
+                student.DepartmentId = int.Parse(Request.Form["DepartmentId"]);
+                college.Students.Update(student);
+                college.SaveChanges();
+            }
+        }
+        return RedirectToAction("StudentTable");
+    }
+
+
+    public IActionResult AddStudent(){
+        return View();
+    }
+
+
+    public IActionResult AddStudentConfirmed(){
+        if(Request != null){
+            var student = new Student(){
+                Name = Request.Form["Name"],
+                DepartmentId = int.Parse(Request.Form["DepartmentId"])
+            };
+            college.Students.Add(student);
+            college.SaveChanges();
+        }
+        return RedirectToAction("StudentTable");
+    }
+
 }

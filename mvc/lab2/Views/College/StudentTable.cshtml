@@ -1,6 +1,4 @@
-@using lab2.Models;
-
-
+@using lab2.Models
 @model IEnumerable<Student>
 
 <!DOCTYPE html>
@@ -10,29 +8,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students</title>
     <link rel="stylesheet" href="~/css/StudentTableStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>DepartmentId</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var student in Model){
+    <div class="container mt-4">
+
+        <div class="mb-3">
+            <a href="/College/AddStudent" class="btn btn-primary">Add Student</a>
+        </div>
+
+
+        <table class="table table-bordered">
+            <thead>
                 <tr>
-                    <td>@student.Id</td>
-                    <td>@student.Name</td>
-                    <td>@student.DepartmentId</td>
-                    <td>
-                        <a href="/College/DeleteStudent?id=@student.Id" class="btn btn-danger">Delete</a>
-                    </td>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>DepartmentId</th>
+                    <th>Action</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+                        <td>@student.DepartmentId</td>
+                        <td>
+                            <a href="/College/DeleteStudent?id=@student.Id" class="btn btn-danger">Delete</a>
+                            <a href="/College/UpdateStudent?id=@student.Id" class="btn btn-warning">Update</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
