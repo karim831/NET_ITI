@@ -1,24 +1,34 @@
 @using lab2.Models
-
-
 @model Student
 
-
-<div class="container mt-4">
-    <h2>Student Form</h2>
-    <form action="/College/UpdateStudentConfirmed" method="post" class="mt-3">
-        <div class="form-group">
-            <label for="Id">ID</label>
-            <input type="number" value = "@Model.Id" name="Id" class="form-control" id="Id" placeholder="Enter student ID" readonly/>
-        </div>
-        <div class="form-group">
-            <label for="Name">Name</label>
-            <input type="text"  value = "@Model.Name" name="Name" class="form-control" id="Name" placeholder="Enter student name" />
-        </div>
-        <div class="form-group">
-            <label for="DepartmentId">Department ID</label>
-            <input type="number" value = "@Model.DepartmentId" name="DepartmentId" class="form-control" id="DepartmentId" placeholder="Enter department ID" />
-        </div>
-        <button type="submit" class="btn btn-primary mt-3">Update</button>
-    </form>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Student Form</h2>
+        <form asp-action="UpdateStudentConfirmed" method="post" class="mt-3">
+            <div class="form-group">
+                <label asp-for="Id"></label>
+                <input asp-for="Id" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartmentId"></label>
+                <input asp-for="DepartmentId" class="form-control" />
+                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Update</button>
+        </form>
+    </div>
+</body>
+</html>

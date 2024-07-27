@@ -2,11 +2,12 @@ using Microsoft.AspNetCore.Mvc;
 using lab2.Models;
 
 
+
 namespace lab2.Controllers;
 
 public class CollegeController : Controller{
 
-    CollegeContext college = new CollegeContext();
+    private CollegeContext college = new CollegeContext();
 
     public IActionResult StudentTable(){
         return View("StudentTable",college.Students.ToList());
@@ -37,18 +38,16 @@ public class CollegeController : Controller{
         return NotFound();
     }
 
-    public IActionResult UpdateStudentConfirmed(){
-        if(Request != null){
-            var student = college.Students.FirstOrDefault((s) => s.Id == int.Parse(Request.Form["Id"]));
-            
-            if(student != null){
-                student.Name = Request.Form["Name"];
-                student.DepartmentId = int.Parse(Request.Form["DepartmentId"]);
-                college.Students.Update(student);
-                college.SaveChanges();
-            }
+    public IActionResult UpdateStudentConfirmed(Student student){
+        if (ModelState.IsValid){
+            var s = college.Students.FirstOrDefault((s) => s.Id == student.Id);
+            s.Name = student.Name;
+            s.DepartmentId = student.DepartmentId;
+            college.Students.Update(s);
+            college.SaveChanges();
+            return RedirectToAction("StudentTable");
         }
-        return RedirectToAction("StudentTable");
+        return View("UpdateStudent",student);
     }
 
 
@@ -56,17 +55,14 @@ public class CollegeController : Controller{
         return View();
     }
 
-
-    public IActionResult AddStudentConfirmed(){
-        if(Request != null){
-            var student = new Student(){
-                Name = Request.Form["Name"],
-                DepartmentId = int.Parse(Request.Form["DepartmentId"])
-            };
+    public IActionResult AddStudentConfirmed(Student student){
+        if (ModelState.IsValid){
             college.Students.Add(student);
             college.SaveChanges();
+            return RedirectToAction("StudentTable");
         }
-        return RedirectToAction("StudentTable");
+        else{
+            return View("AddStudent",student);
+        }
     }
-
 }

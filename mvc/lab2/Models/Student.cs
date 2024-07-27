@@ -12,9 +12,9 @@ public class Student{
     [StringLength(20,MinimumLength = 5)]
     public string Name{get;set;}
 
-
+    [ForeignKeyExistsAttribute]
     public int DepartmentId{get;set;}
 
     [ForeignKey("DepartmentId")]
-    public virtual Department Department{get;set;}
+    public virtual Department? Department{get;set;}
 }
