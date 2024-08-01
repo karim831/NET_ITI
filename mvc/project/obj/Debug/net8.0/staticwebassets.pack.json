@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Studying\\programming\\NET ITI\\mvc\\project\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "D:\\Studying\\programming\\NET ITI\\mvc\\project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
