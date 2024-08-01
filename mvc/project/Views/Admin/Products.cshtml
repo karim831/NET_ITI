@@ -43,20 +43,18 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @if(Model != null && Model.Products != null){
-                            @foreach (var product in Model.Products)
-                            {
-                                <tr>
-                                    <td>@product.Id</td>
-                                    <td>@product.Name</td>
-                                    <td>@product.Price.ToString("C")</td>
-                                    <td>@product.Stock</td>
-                                    <td>
-                                        <a href="/Admin/UpdateProduct/@product.Id" class="btn btn-warning btn-sm">Update</a>
-                                        <a href="/Admin/DeleteProduct/@product.Id" class="btn btn-danger btn-sm">Delete</a>
-                                    </td>
-                                </tr>
-                            }
+                        @foreach (var product in Model.Products)
+                        {
+                            <tr>
+                                <td>@product.Id</td>
+                                <td>@product.Name</td>
+                                <td>@product.Price.ToString("C")</td>
+                                <td>@product.Stock</td>
+                                <td>
+                                    <a href="/Admin/UpdateProduct/@product.Id" class="btn btn-warning btn-sm">Update</a>
+                                    <a href="/Admin/DeleteProduct/@product.Id" class="btn btn-danger btn-sm">Delete</a>
+                                </td>
+                            </tr>
                         }
                     </tbody>
                 </table>

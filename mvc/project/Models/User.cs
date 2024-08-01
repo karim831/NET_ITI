@@ -10,16 +10,16 @@ namespace project.Models{
 
         [Required]
         [StringLength(20, MinimumLength = 5)]
-        public string? UserName{get;set;}
+        public string UserName{get;set;} = null!;
 
         [Required]
         [StringLength(20, MinimumLength = 8)]
-        public string? Password{get;set;} 
+        public string Password{get;set;} = null!; 
 
         [Required]
         public bool Role{get;set;}
 
 
-        public ICollection<Pruchase>? Pruchases{get;set;}
+        public IEnumerable<Pruchase> Pruchases{get;set;} = null!;
     }
 }

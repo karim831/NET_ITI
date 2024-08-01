@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0hpHn4KhfK5x4MykGyhRkfehIxTgpf2syoYelSwTxfo=",
+  "Hash": "cxv93bwO6lQ7z7031frWubh6jzQfwm06QHlVp8WIkBo=",
   "Source": "project",
   "BasePath": "_content/project",
   "Mode": "Default",
@@ -1155,6 +1155,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Studying\\programming\\NET ITI\\mvc\\project\\wwwroot\\logo.png",
+      "SourceId": "project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Studying\\programming\\NET ITI\\mvc\\project\\wwwroot\\",
+      "BasePath": "_content/project",
+      "RelativePath": "logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.png"
     }
   ]
 }

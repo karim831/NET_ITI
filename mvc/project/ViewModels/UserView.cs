@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 namespace project.ViewModels{
-    public class AdminView{
+    public class UserView{
         [Required]
         [StringLength(20, MinimumLength = 5)]
         public string UserName{get;set;} = null!;

@@ -13,10 +13,10 @@ namespace project.Contorllers{
             return View();
         }
 
-        public IActionResult LoginConfirmed(AdminView userView){
+        public IActionResult LoginConfirmed(AdminView adminView){
             if(ModelState.IsValid){
-                var admin = store.Users.FirstOrDefault((u) => (u.UserName == userView.UserName) && u.Role == true);
-                if(admin != null && admin.Password == userView.Password){
+                var admin = store.Users.FirstOrDefault((u) => (u.UserName == adminView.UserName) && u.Role == true);
+                if(admin != null && admin.Password == adminView.Password){
                     adminSession = new User(){
                         Id = admin.Id,
                         UserName = admin.UserName,
@@ -27,7 +27,7 @@ namespace project.Contorllers{
                 }
             }
             ModelState.AddModelError(string.Empty, "Username or password isn't correct");
-            return View("Login",userView);
+            return View("Login",adminView);
         }
 
         public IActionResult Products(){

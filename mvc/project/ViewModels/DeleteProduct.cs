@@ -9,7 +9,7 @@ namespace project.ViewModels{
 
         [Required]
         [StringLength(20, MinimumLength = 5)]
-        public string? Name{get;set;}
+        public string Name{get;set;} = null!;
 
         [Required]
         [Range(1.0, 10000.00)]

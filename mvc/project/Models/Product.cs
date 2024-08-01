@@ -10,7 +10,7 @@ namespace project.Models{
 
         [Required]
         [StringLength(20, MinimumLength = 5)]
-        public string? Name{get;set;}
+        public string Name{get;set;} = null!;
 
         [Required]
         [Range(1.0, 10000.00)]
@@ -20,7 +20,7 @@ namespace project.Models{
         public int Stock{get;set;}
         
 
-        public ICollection<Pruchase>? Pruchases{get;set;}
+        public IEnumerable<Pruchase> Pruchases{get;set;} = null!;
 
     }
 }
